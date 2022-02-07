@@ -7,7 +7,7 @@ const connectionOptions: ConnectionOptions = {
     username: 'postgres',
     password: '78xhdtls@',
     database: 'postgres',
-    entities: ["src/api/entity/**/*.ts"],
+    entities: ["src/entity/**/*.ts"],
     migrations: ["src/migration/**/*.ts"],
     subscribers: ["src/subscriber/**/*.ts"],
     synchronize: true,
