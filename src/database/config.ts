@@ -5,7 +5,7 @@ const connectionOptions: ConnectionOptions = {
     host: 'localhost',
     port: 5432,
     username: 'postgres',
-    password: '78xhdtls@',
+    password: process.env.DB_PASSWORD,
     database: 'postgres',
     entities: ["src/entity/**/*.ts"],
     migrations: ["src/migration/**/*.ts"],

@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import * as express from "express";
 import connectionOptions from "./database/config";
 import { createConnection } from "typeorm";
